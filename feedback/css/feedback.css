@@ -1,0 +1,51 @@
+.feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+.feedback h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+#feedback {
+    width: 30%;
+}
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    margin: 6px 0 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #a5a5a5;
+    border-radius: 6px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.success {
+    text-align: center;
+    background-color: rgb(127, 255, 136);
+    cursor: pointer;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    border-radius: 12px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.success:hover {
+    background-color: rgb(81, 226, 91);
+    transition: ease-in 0.15s;
+}
+input:focus,
+textarea:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+  
